@@ -82,7 +82,7 @@ $ ./os_kilo_setup.py singlenode
    if the script failed.
 
 ```
-$ cat os_kilo_setup/tests && ./stop.sh && beadm create -a -e ostk-k osm1 && reboot
+$ cd os_kilo_setup/tests && ./stop.sh && beadm create -a -e ostk-k osm1 && reboot
 ```
 
    If the script fails a second time, use above command and substitute 'osm2' for
