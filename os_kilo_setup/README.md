@@ -82,11 +82,11 @@ $ ./os_kilo_setup.py singlenode
    if the script failed.
 
 ```
-$ cat os_kilo_setup/tests && ./stop.sh && beadm create -a -e ostk-k osm1 && reboot
+$ cat os_kilo_setup/tests && ./stop.sh && beadm create -a -e ostk-k osk1 && reboot
 ```
 
-   If the script fails a second time, use above command and substitute 'osm2' for
-   'osm1'.  Keep incrementing this number and delete the old boot environments later
+   If the script fails a second time, use above command and substitute 'osk2' for
+   'osk1'.  Keep incrementing this number and delete the old boot environments later
    when time permits.
 
 
